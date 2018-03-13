@@ -4,3 +4,8 @@ def sort_array_asc(array)
   end
   array_asc
 end
+
+def sort_array_desc(array)
+  array_desc = sort_array_asc(array)
+  array_desc.reverse_array
+end
