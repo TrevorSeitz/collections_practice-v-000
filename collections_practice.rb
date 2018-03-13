@@ -16,3 +16,10 @@ def sort_array_char_count(array)
   end
   array_count_asc
 end
+
+def swap_elements(array)
+end
+
+def reverse_array(array)
+  array.reverse
+end
