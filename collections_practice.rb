@@ -54,9 +54,10 @@ end
 def add_s(array)
   word_s = []
   array.each do |word|
-    word << "s"
-    word_s << word
-    # end
+    if word.index != 1
+      word << "s"
+      word_s << word
+    end
   end
   word_s
 end
